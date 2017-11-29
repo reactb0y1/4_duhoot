@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  width: 100%;
+  height: 74px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo {
+  margin-left: 8%;
+}
+.nav_menu {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+}
+.nav_menu-li {
+  margin-left: 20px;
+}
+.nav_menu-li-a {
+  color: #96a6a7;
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav_search {
+  width: 96px;
+  height: 100%;
+  background-color: #e2dee0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.nav_search-input {
+  position: absolute;
+  z-index: -1;
+}
+.nav_login {
+  width: 386px;
+  height: 100%;
+  background-color: #e94e38;
+  display: flex;
+}
+.nav_login-a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+}
+.nav_login-text {
+  width: 44px;
+  height: 16px;
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.nav_login-ico {
+  margin-left: 40px;
+  margin-right: 16px;
+}
