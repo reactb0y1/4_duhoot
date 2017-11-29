@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sashakobzeww/4_duhoot/issues"
   },
-  "homepage": "https://github.com/sashakobzeww/4_duhoot#readme"
+  "homepage": "https://github.com/sashakobzeww/4_duhoot#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
