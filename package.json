@@ -17,6 +17,15 @@
   },
   "homepage": "https://github.com/sashakobzeww/4_duhoot#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-pagebuilder": "^0.1.4",
+    "gulp-rigger": "^0.5.8",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "gulp-include-html": "^1.0.14"
   }
 }
