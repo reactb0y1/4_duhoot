@@ -5,31 +5,58 @@
 	<title>DUHOOT</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<nav class="nav">
-		<div class="nav_logo"><a href="" class="link_logo"><img src="../src/navbar/nav_logo.png" alt=""></a></div>
-		<ul class="nav_menu">
-			<li class="nav_menu-li"><a href="" class="nav_menu-li-a">REALITY</a></li>
-			<li class="nav_menu-li"><a href="" class="nav_menu-li-a">LIVING</a></li>
-			<li class="nav_menu-li"><a href="" class="nav_menu-li-a">EDUCATION</a></li>
-			<li class="nav_menu-li"><a href="" class="nav_menu-li-a">ENTERTAIMENT</a></li>
-			<li class="nav_menu-li"><a href="" class="nav_menu-li-a">MOBILLITY</a></li>
+		<div class="nav__logo"><a href="" class="link__logo"><img src="../src/navbar/nav__logo.png" alt=""></a></div>
+		<ul class="nav__menu">
+			<li class="nav__menu-li"><a href="" class="nav__menu-li-a">REALITY</a></li>
+			<li class="nav__menu-li"><a href="" class="nav__menu-li-a">LIVING</a></li>
+			<li class="nav__menu-li"><a href="" class="nav__menu-li-a">EDUCATION</a></li>
+			<li class="nav__menu-li"><a href="" class="nav__menu-li-a">ENTERTAIMENT</a></li>
+			<li class="nav__menu-li"><a href="" class="nav__menu-li-a">MOBILLITY</a></li>
 		</ul>
-		<div class="nav_login">
-			<form class="nav_search">
-				<input class="nav_search-input" type="search">
-				<img src="../src/navbar/nav_search-img.png" alt="" class="nav_search-img">
+		<div class="nav__login">
+			<form class="nav__search">
+				<input class="nav__search-input" type="search">
+				<img src="../src/navbar/nav__search-img.png" alt="" class="nav__search-img">
 			</form>
-			<a href="" class="nav_login-a">
-				<img class="nav_login-ico" src="../src/navbar/nav_login-ico.png" alt="">
-				<p class="nav_login-text">LOGIN</p>
+			<a href="" class="nav__login-a">
+				<img class="nav__login-ico" src="../src/navbar/nav__login-ico.png" alt="">
+				<p class="nav__login-text">LOGIN</p>
 			</a>
 		</div>
 	</nav>
 
 	<section class="search">
-		
+		<form action="" class="search__form" method="post">
+			<h2 class="search__head">What are you looking for?</h2>
+			<div class="search__town-wrapper">
+				<i class="search__town-arrow fa fa-chevron-down" aria-hidden="true"></i>
+				<select class="search__town" name="" id="">
+					<option class="search__town-option" value="1">City 1</option>
+					<option class="search__town-option" value="2">City 2</option>
+					<option class="search__town-option" value="3">City 3</option>
+					<option class="search__town-option" value="4">City 4</option>
+				</select>
+			</div>
+
+			<div class="search__target-wrapper">
+				<i class="search__target-arrow fa fa-chevron-down" aria-hidden="true"></i>
+				<select name="" id="" class="search__target">
+					<option value="1" class="search__target-option">Target 1</option>
+					<option value="2" class="search__target-option">Target 2</option>
+					<option value="3" class="search__target-option">Target 3</option>
+					<option value="4" class="search__target-option">Target 4</option>
+					<option value="5" class="search__target-option">Target 5</option>
+					<option value="6" class="search__target-option">Target 6</option>
+					<option value="7" class="search__target-option">Target 7</option>
+				</select>
+			</div>
+			<input type="search" class="search__input" placeholder="Keyword, name, date, ...">
+			<button class="search__button"><p class="search__button-text">Search</p></button>
+		</form>
 	</section>
 
 	
