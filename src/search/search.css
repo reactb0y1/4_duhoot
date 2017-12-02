@@ -30,7 +30,7 @@
 .search__town-wrapper,
 .search__target-wrapper {
   position: relative;
-  z-index: 5;
+  z-index: 6;
 }
 .search__town,
 .search__target {
