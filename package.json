@@ -20,6 +20,7 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
     "gulp-csso": "^3.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-minify-css": "^1.2.4",
@@ -30,6 +31,7 @@
     "gulp-watch": "^4.3.11"
   },
   "dependencies": {
-    "gulp-include-html": "^1.0.14"
+    "gulp-include-html": "^1.0.14",
+    "gulp-less": "^3.3.2"
   }
 }
