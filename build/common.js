@@ -1,1 +1,1 @@
-var a=1,b=2;
+$(".filter__sort-list-item").click(function(){$(".filter__sort-list-item").addClass("filter__sort-list-item_active")}),$(".filter__sort-list-item").click(function(){$(".filter__sort-list-item").addClass("filter__sort-list-item_active")});var a=1,b=2;

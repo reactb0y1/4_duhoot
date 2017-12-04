@@ -3,4 +3,42 @@
 	height: 60px;
 	box-shadow: 0 1px 0 #edebec;
 	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__sort {
+		width: 264px;
+		margin-left: 10%;
+
+		&-list {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			
+			&-item {
+				color: #96a6a7;
+				font-family: Gotham;
+				font-size: 12px;
+				font-weight: 500;
+				text-transform: uppercase;
+
+				&:hover {
+					cursor: pointer;
+				}
+
+				 &_active {
+					color: #e94e38 !important;
+				}
+			}
+		}
+	}
+
+	&__town {
+		
+	}
+
+	&__filters {
+
+	}
 }
