@@ -103,4 +103,50 @@
 		}
 	}
 
+	&__info {
+		width: 100%;
+		height: 130px;
+		position: absolute;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__name {
+		color: #1baf5d;
+		font-family: Gotham;
+		font-size: 12px;
+		font-weight: 500;
+		text-transform: uppercase;
+		cursor: pointer;
+		margin-top: 10px;
+
+		&_home {
+			color: @color-home;
+		}
+
+		&_melody {
+			color: @color-melody;
+		}
+
+		&_auto {
+			color: @color-auto;
+		}
+	}
+
+	&__raiting {
+		cursor: pointer;
+	}
+
+	&__quantity {
+		color: #96a6a7;
+		font-family: Gotham;
+		font-size: 12px;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-left: 5px;
+	}
+
 }

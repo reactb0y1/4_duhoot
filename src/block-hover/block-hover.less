@@ -1,0 +1,40 @@
+.block-hover {
+	position: absolute;
+	width: 100%;
+	height: 140px;
+	z-index: 7;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	&_home {
+		background-color: #1BAF5DCC;
+	}
+
+	&_melody {
+		background-color: #F19E1FCC;
+	}
+
+	&_auto {
+		background-color: #88499CCC;
+	}
+
+	&__stars {
+		width: 86px;
+		height: 16px;
+		background: url("../resource/images/block-hover__stars.png") no-repeat;
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	&__comments {
+		width: 25px;
+		height: 20px;
+		display: inline-block;
+		background: url("../resource/images/block-hover__comments.png") no-repeat;
+		margin-left: 20px;
+		margin-bottom: 15px;
+		cursor: pointer;
+	}
+
+}
