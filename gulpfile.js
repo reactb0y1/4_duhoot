@@ -6,6 +6,7 @@ var csso = require('gulp-csso');				// Сжимаем CSS
 var prefixer = require("gulp-autoprefixer");	// Добавляем префиксы
 var uncss = require('gulp-uncss');				// Очишаем CSS от лишнего кода
 var less = require('gulp-less');				// Для препроцессора
+var plumber = require('gulp-plumber');			// предохранение от вылета
 // var path = require('path');
 // var connect = require('gulp-connect'); 				//livereload
 var livereload = require('gulp-livereload');
@@ -23,6 +24,7 @@ gulp.task('connect', function(){
 // CSS
 gulp.task('CSS', function () {
 	return gulp.src('src/**/*.less')
+		.pipe(plumber())
 		.pipe(less())
 		.pipe(concat("style.css"))			// Склеиваем CSS
 		.pipe(uncss({						// Чистим от лишнего кода 
@@ -40,8 +42,9 @@ gulp.task('CSS', function () {
 // JS
 gulp.task('JS', function () {
 	return gulp.src('src/**/*.js')
+		.pipe(plumber())
 		.pipe(concat("common.js"))		// Склеиваем JS
-		.pipe(uglify())					// Минификация JS
+		// .pipe(uglify())					// Минификация JS
 		.pipe(gulp.dest('build/'))
 		// .pipe(connect.reload());
 		// .pipe(livereload());

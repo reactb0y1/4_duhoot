@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<title>DUHOOT</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../src/fonts.less">
 </head>
 <body>
 	<nav class="nav">
@@ -61,21 +62,21 @@
 
 	<section class="filter">
 		<div class="filter__sort">
-			<div class="filter__sort-list">
-				<div class="filter__sort-list-item filter__sort-list-item_active">recommended</div>
-				<div class="filter__sort-list-item">latest</div>
-				<div class="filter__sort-list-item">highlightes</div>
-			</div>
+			<ul class="filter__sort-list">
+				<li class="filter__sort-list-item filter__sort-list-item_active">recommended</li>
+				<li class="filter__sort-list-item">latest</li>
+				<li class="filter__sort-list-item">highlightes</li>
+			</ul>
 		</div>
 		
 		<div class="filters">
 			<h4 class="filters__head">filter</h4>
 			<ul class="filters__list">
-				<li class="li filters__list-item"><img src="../resource/images/filters__home.png" alt="" class="filters__list-item-img"></li>
-				<li class="li filters__list-item"><img src="../resource/images/filters__human.png" alt="" class="filters__list-item-img"></li>
-				<li class="li filters__list-item"><img src="../resource/images/filters__cap.png" alt="" class="filters__list-item-img"></li>
-				<li class="li filters__list-item"><img src="../resource/images/filters__melody.png" alt="" class="filters__list-item-img"></li>
-				<li class="li filters__list-item"><img src="../resource/images/filters__auto.png" alt="" class="filters__list-item-img"></li>
+				<li class="filters__list-item"><img src="../resource/images/filters__home.png" alt="" class="filters__list-item-img"></li>
+				<li class="filters__list-item"><img src="../resource/images/filters__human.png" alt="" class="filters__list-item-img"></li>
+				<li class="filters__list-item"><img src="../resource/images/filters__cap.png" alt="" class="filters__list-item-img"></li>
+				<li class="filters__list-item"><img src="../resource/images/filters__melody.png" alt="" class="filters__list-item-img"></li>
+				<li class="filters__list-item"><img src="../resource/images/filters__auto.png" alt="" class="filters__list-item-img"></li>
 			</ul>
 		</div>
 	</section>
@@ -292,7 +293,6 @@
 		
 	</section>
 
-
 	<section class="offer">
 
 		<h3 class="offer__head">What can DuHoot offer to you?</h3>
@@ -300,20 +300,20 @@
 
 		<ul class="paragraphs">
 			<li class="paragraphs__line"></li>
-			<li class="paragraphs__item"><img src="../resource/images/paragraphs__home.png" alt="" class="paragraphs__ico"></li>
-			<li class="paragraphs__item"><img src="../resource/images/paragraphs__human.png" alt="" class="paragraphs__ico"></li>
-			<li class="paragraphs__item"><img src="../resource/images/paragraphs__cap.png" alt="" class="paragraphs__ico"></li>
-			<li class="paragraphs__item"><img src="../resource/images/paragraphs__melody.png" alt="" class="paragraphs__ico"></li>
-			<li class="paragraphs__item"><img src="../resource/images/paragraphs__auto.png" alt="" class="paragraphs__ico"></li>
+			<li class="paragraphs__item"></li>
+			<li class="paragraphs__item"></li>
+			<li class="paragraphs__item"></li>
+			<li class="paragraphs__item"></li>
+			<li class="paragraphs__item"></li>
 		</ul>
 
-		<div class="slide">
+		<div class="slide slide_visible">
 
-			<h4 class="slide__head">Reality</h4>
+			<h4 class="slide__head">Reality 1</h4>
 
 			<div class="descrip">
 
-				<span class="descrip__img descrip__img_1"></span>
+				<span class="descrip__img descrip__img_1-1"></span>
 
 				<p class="descrip__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
 				
@@ -321,9 +321,97 @@
 
 			<div class="descrip">
 
-				<span class="descrip__img descrip__img_2"></span>
+				<span class="descrip__img descrip__img_2-1"></span>
 
 				<p class="descrip__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+				
+			</div>
+
+		</div>
+
+		<div class="slide">
+
+			<h4 class="slide__head">Reality 2</h4>
+
+			<div class="descrip">
+
+				<span class="descrip__img descrip__img_1-2"></span>
+
+				<p class="descrip__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptate nihil corporis et. Vero autem minus sit saepe repellendus obcaecati.</p>
+				
+			</div>
+
+			<div class="descrip">
+
+				<span class="descrip__img descrip__img_2-2"></span>
+
+				<p class="descrip__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illo officia est cumque beatae deleniti tempora neque distinctio rerum ad!</p>
+				
+			</div>
+
+		</div>
+
+		<div class="slide">
+
+			<h4 class="slide__head">Reality 3</h4>
+
+			<div class="descrip">
+
+				<span class="descrip__img descrip__img_1-3"></span>
+
+				<p class="descrip__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis in necessitatibus labore quas dolor rem enim modi sapiente repellendus repellat ea reiciendis vero eos atque odit distinctio, dignissimos tenetur odio.</p>
+				
+			</div>
+
+			<div class="descrip">
+
+				<span class="descrip__img descrip__img_2-3"></span>
+
+				<p class="descrip__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui asperiores hic quas rerum ducimus aut quasi incidunt consectetur reprehenderit nostrum, eum tempora, ad explicabo, libero magni, inventore consequatur debitis. Maiores.</p>
+				
+			</div>
+
+		</div>
+
+		<div class="slide">
+
+			<h4 class="slide__head">Reality 4</h4>
+
+			<div class="descrip">
+
+				<span class="descrip__img descrip__img_1-4"></span>
+
+				<p class="descrip__text">Numquam suscipit nemo voluptatibus, dolorum aut doloribus unde aperiam assumenda in. Natus, unde! Quis eaque quidem perferendis magni, rem nihil maxime atque debitis reiciendis rerum officia totam suscipit id velit fugit eligendi?</p>
+				
+			</div>
+
+			<div class="descrip">
+
+				<span class="descrip__img descrip__img_2-4"></span>
+
+				<p class="descrip__text">Tenetur, ad, illo. Autem voluptatem, veniam aliquid minima! Vel pariatur molestias fugiat, voluptates odit laudantium itaque officiis mollitia earum tempora aut non atque debitis harum veritatis ad modi, eaque officia repellendus dolorem.</p>
+				
+			</div>
+
+		</div>
+
+		<div class="slide">
+
+			<h4 class="slide__head">Reality 5</h4>
+
+			<div class="descrip">
+
+				<span class="descrip__img descrip__img_1-5"></span>
+
+				<p class="descrip__text">Distinctio asperiores cupiditate sapiente sunt quidem, ullam enim. Fuga a iure illo iste, nostrum ipsa delectus eum ratione impedit eveniet ipsum deleniti numquam quos enim sequi fugiat! Dignissimos officiis error voluptatum similique.</p>
+				
+			</div>
+
+			<div class="descrip">
+
+				<span class="descrip__img descrip__img_2-5"></span>
+
+				<p class="descrip__text">Sequi nihil, quam, illum eius rerum delectus pariatur tempore. Aperiam ipsum ducimus quisquam tenetur quaerat rerum, similique earum, iusto enim error placeat quibusdam modi assumenda autem ex officia laboriosam.</p>
 				
 			</div>
 

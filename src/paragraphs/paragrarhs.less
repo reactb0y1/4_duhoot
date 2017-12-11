@@ -10,7 +10,7 @@
 	&__item {
 		width: 100px;
 		height: 100px;
-		border-radius: 50px;
+		border-radius: 51px;
 		border: 2px solid #1baf5d;
 		display: flex;
 		justify-content: center;
@@ -19,6 +19,14 @@
 		z-index: 2;
 		background: #f3f1f2;
 		box-shadow: 0px 0 0 5px #F3F1F2;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		&:nth-child(2) {background-image: url("../resource/images/paragraphs__home.png")}
+		&:nth-child(3) {background-image: url("../resource/images/paragraphs__human.png")}
+		&:nth-child(4) {background-image: url("../resource/images/paragraphs__cap.png")}
+		&:nth-child(5) {background-image: url("../resource/images/paragraphs__melody.png")}
+		&:nth-child(6) {background-image: url("../resource/images/paragraphs__auto.png")}
 	}
 
 	&__img {

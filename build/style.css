@@ -1,7 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300&subset=cyrillic-ext');
 @font-face {
   font-family: "Gotham - Book";
   src: url("../src/fonts/GothamBookRegular.ttf");
   src: url("../src/fonts/GothamBookRegular.otf") format("otf");
+  font-style: normal;
+  font-weight: normal;
+}
+/*Roboto: light*/
+/*OpenSans: bold, regular, semiBold light*/
+/*HelveticaNeueCyr*/
+/*Bold*/
+@font-face {
+  font-family: "HelveticaNeueCyr-Bold";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-Bold.otf);
+}
+/*BoldItalic*/
+@font-face {
+  font-family: "HelveticaNeueCyr-BoldItalic";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-BoldItalic.otf);
+}
+/*Heavy*/
+@font-face {
+  font-family: "HelveticaNeueCyr-Heavy";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-Heavy.otf);
+}
+/*HeavyItalic*/
+@font-face {
+  font-family: "HelveticaNeueCyr-HeavyItalic";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-HeavyItalic.otf);
+}
+/*Italic*/
+@font-face {
+  font-family: "HelveticaNeueCyr-Italic";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-Italic.otf);
+}
+/*Light*/
+@font-face {
+  font-family: "HelveticaNeueCyr-Light";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-Light.otf);
+}
+/*LightItalic*/
+@font-face {
+  font-family: "HelveticaNeueCyr-LightItalic";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-LightItalic.otf);
+}
+/*Medium*/
+@font-face {
+  font-family: "HelveticaNeueCyr-Medium";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-Medium.otf);
+}
+/*Roman*/
+@font-face {
+  font-family: "HelveticaNeueCyr-Roman";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-Roman.otf);
+}
+/*Thin*/
+@font-face {
+  font-family: "HelveticaNeueCyr-Thin";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-Thin.otf);
+}
+/*ThinItalic*/
+@font-face {
+  font-family: "HelveticaNeueCyr-ThinItalic";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-ThinItalic.otf);
+}
+/*UltraLight*/
+@font-face {
+  font-family: "HelveticaNeueCyr-UltraLight";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-UltraLight.otf);
+}
+/*UltraLightItalic*/
+@font-face {
+  font-family: "HelveticaNeueCyr-UltraLightItalic";
+  src: url(../src/fonts/fonts3/HelveticaNeueCyr-UltraLightItalic.otf);
+}
+/*Helvetica*/
+/*Light*/
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot");
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaLight/HelveticaLight.woff") format("woff"), url("../fonts/HelveticaLight/HelveticaLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*UltraLight*/
+@font-face {
+  font-family: "HelveticaUltraLight";
+  src: url("../fonts/HelveticaUltraLight/HelveticaUltraLight.eot");
+  src: url("../fonts/HelveticaUltraLight/HelveticaUltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaUltraLight/HelveticaUltraLight.woff") format("woff"), url("../fonts/HelveticaUltraLight/HelveticaUltraLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*Myriad Pro*/
+/*Regular*/
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*Bold*/
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*NeoSansPro*/
+@font-face {
+  font-family: "NeoSansPro-Ultra";
+  src: url("E:/WEB/WORKSHOP/IMPOSITION/WORK/PORTFOLIO/4_duhoot/src/fonts/fonts3/NeoSans/NeoSansPro-Ultra.ttf");
+  src: url("E:/WEB/WORKSHOP/IMPOSITION/WORK/PORTFOLIO/4_duhoot/src/fonts/fonts3/NeoSans/Neo Sans Std Ultra  TR.woff") format("woff"), url("E:/WEB/WORKSHOP/IMPOSITION/WORK/PORTFOLIO/4_duhoot/src/fonts/fonts3/NeoSans/NeoSansPro-Ultra.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -19,6 +130,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: none;
 }
 .block-hover_home {
   background-color: #1BAF5DCC;
@@ -113,7 +225,7 @@
 }
 .block-info__quantity_large {
   color: #ffffff;
-  font-family: Gotham;
+  font-family: "HelveticaNeueCyr-Bold";
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -121,7 +233,6 @@
 .block-info__text {
   max-width: 80%;
   color: #566375;
-  font-family: Gotham;
   font-size: 14px;
   font-weight: 500;
   text-align: center;
@@ -221,7 +332,7 @@
   cursor: pointer;
   text-align: center;
   color: #ffffff;
-  font-family: Gotham;
+  font-family: "Gotham - Book";
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -294,7 +405,7 @@
 }
 .block-small__name {
   color: #1baf5d;
-  font-family: Gotham;
+  font-family: "NeoSansPro-Ultra";
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -323,8 +434,8 @@
       flex-wrap: wrap;
 }
 .descrip__img {
-  width: 62px;
-  height: 62px;
+  width: 61px;
+  height: 61px;
   background-color: #1db05e;
   border-radius: 31px;
   background-repeat: no-repeat;
@@ -332,14 +443,38 @@
   position: relative;
   top: -22px;
 }
-.descrip__img_1 {
-  background-image: url("../resource/images/descrip__img1.png");
+.descrip__img_1-1 {
+  background-image: url("../resource/images/descrip__img_1-1.png");
 }
-.descrip__img_2 {
-  background-image: url("../resource/images/descrip__img2.png");
+.descrip__img_2-1 {
+  background-image: url("../resource/images/descrip__img_2-1.png");
+}
+.descrip__img_1-2 {
+  background-image: url("../resource/images/descrip__img_1-2.png");
+}
+.descrip__img_2-2 {
+  background-image: url("../resource/images/descrip__img_2-2.png");
+}
+.descrip__img_1-3 {
+  background-image: url("../resource/images/descrip__img_1-3.png");
+}
+.descrip__img_2-3 {
+  background-image: url("../resource/images/descrip__img_2-3.png");
+}
+.descrip__img_1-4 {
+  background-image: url("../resource/images/descrip__img_1-4.png");
+}
+.descrip__img_2-4 {
+  background-image: url("../resource/images/descrip__img_2-4.png");
+}
+.descrip__img_1-5 {
+  background-image: url("../resource/images/descrip__img_1-5.png");
+}
+.descrip__img_2-5 {
+  background-image: url("../resource/images/descrip__img_2-5.png");
 }
 .descrip__text {
-  width: 259px;
+  width: 256px;
   color: #566375;
   font-family: "Gotham - Book";
   font-size: 14px;
@@ -378,6 +513,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  list-style-type: none;
 }
 .filter__sort-list-item {
   color: #96a6a7;
@@ -430,9 +566,22 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 .filters__list-item-img {
   margin-bottom: 3px;
+}
+.filters__list-item:nth-child(2) {
+  background: #779AEF;
+}
+.filters__list-item:nth-child(3) {
+  background: #FF59B7;
+}
+.filters__list-item:nth-child(4) {
+  background: #F19E1F;
+}
+.filters__list-item:nth-child(5) {
+  background: #88499C;
 }
 
 .follow__head {
@@ -699,7 +848,7 @@
 .paragraphs__item {
   width: 100px;
   height: 100px;
-  border-radius: 50px;
+  border-radius: 51px;
   border: 2px solid #1baf5d;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -715,6 +864,23 @@
   background: #f3f1f2;
   -webkit-box-shadow: 0px 0 0 5px #F3F1F2;
           box-shadow: 0px 0 0 5px #F3F1F2;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.paragraphs__item:nth-child(2) {
+  background-image: url("../resource/images/paragraphs__home.png");
+}
+.paragraphs__item:nth-child(3) {
+  background-image: url("../resource/images/paragraphs__human.png");
+}
+.paragraphs__item:nth-child(4) {
+  background-image: url("../resource/images/paragraphs__cap.png");
+}
+.paragraphs__item:nth-child(5) {
+  background-image: url("../resource/images/paragraphs__melody.png");
+}
+.paragraphs__item:nth-child(6) {
+  background-image: url("../resource/images/paragraphs__auto.png");
 }
 .paragraphs__line {
   width: 90%;
@@ -884,10 +1050,8 @@
 }
 
 .slide {
+  /* uncss:ignore */
   width: 780px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -900,6 +1064,12 @@
       -ms-flex-align: end;
           align-items: end;
   margin-bottom: 87px;
+  display: none;
+}
+.slide_visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .slide__head {
   width: 100%;
@@ -967,6 +1137,7 @@
   font-weight: 500;
   color: #566375;
 }
+
 
 .subscribe {
   width: 100%;

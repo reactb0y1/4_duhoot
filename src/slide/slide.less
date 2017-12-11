@@ -1,7 +1,10 @@
 .slide {
+/* uncss:ignore */
+	&_visible {
+		display: flex;
+	}
 
 	width: 780px;
-	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrar: wrap;
@@ -9,6 +12,7 @@
 	height: 183px;
 	align-items: end;
 	margin-bottom: 87px;
+	display: none;
 
 	&__head {
 		width: 100%;
@@ -21,5 +25,4 @@
 		position: absolute;
 		top: 0;
 	}
-
 }
