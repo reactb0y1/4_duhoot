@@ -657,7 +657,32 @@
 }
 .nav__search-input {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
+  width: 66px;
+  height: 74px;
+  border: none;
+  outline: none;
+  right: 310px;
+  font-size: 20px;
+  padding-left: 67px;
+  background-color: #e2dee0;
+  -webkit-transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+  -o-transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+  transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
+  background-image: url("../src/navbar/nav__search-img.png");
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  color: #96a6a7;
+  font-family: 'GothamMedium';
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 7px;
+}
+.nav__search-input:focus,
+.nav__search-input:hover {
+  width: 700px;
+  z-index: 1;
+  cursor: text;
 }
 .nav__login {
   width: 386px;

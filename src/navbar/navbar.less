@@ -45,10 +45,38 @@
 
 		&-input {
 			position: absolute;
-			z-index: -1;
+			z-index: 0;
+			width: 66px;
+			height: 74px;
+			border: none;
+			outline: none;
+			right: 310px;
+			font-size: 20px;
+			padding-left: 67px;
+			background-color: #e2dee0;
+			transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+			background-image: url("../src/navbar/nav__search-img.png");
+			background-repeat: no-repeat;
+			background-position: right 25px center;
+
+			color: #96a6a7;
+			font-family: 'GothamMedium';
+			font-size: 24px;
+			font-weight: 500;
+			padding-bottom: 7px;
+
+			&:focus, &:hover {
+				width: 700px;
+				z-index: 1;
+				cursor: text;
+			}
+
 		}
 
 	}
+
+
+
 
 	&__login {
 		width: 386px;
