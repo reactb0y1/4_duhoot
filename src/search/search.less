@@ -20,7 +20,7 @@
 	}
 
 	&__head {
-		width: 100%;
+		width: 80%;
 		text-shadow: 0 1px 1px rgba(0, 0, 1, 0.15);
 		color: #ffffff;
 		font-family: 'GothamMedium';
@@ -118,4 +118,18 @@
 			box-shadow: 0 0 0 #c1412e;
 		}
 	}
+}
+
+@media (max-width: 575px) {
+	.search {
+		height: 530px;
+
+		&__head {margin-bottom: 20px}
+		&__input {width: 94%}
+		&__button {margin-top: 30px}
+	}
+}
+
+@media (max-width: 500px) {
+	.search__input {width: 75%}
 }

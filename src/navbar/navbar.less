@@ -10,6 +10,21 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	
+	&__gamburger {
+		min-width: 40px;
+		min-height: 40px;
+		background-image: url(../resource/images/nav__gamburger.png);
+		display: none;
+		align-self: start;
+		margin: auto auto auto 50px;
+		background-size: contain;
+		background-repeat: no-repeat;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
 
 	&__logo {
 		margin-left: 8%;
@@ -30,6 +45,15 @@
 				font-weight: 500;
 				text-transform: uppercase;
 				text-decoration: none;
+			}
+
+			&-opacty {
+				position: absolute;
+				width: 0;
+				height: 100vh;
+				background-color: #0000;
+				top: 0;
+				left: 250px;
 			}
 		}
 	}
@@ -52,7 +76,6 @@
 			outline: none;
 			right: 310px;
 			font-size: 20px;
-			padding-left: 67px;
 			background-color: #e2dee0;
 			transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
 			background-image: url("../src/navbar/nav__search-img.png");
@@ -63,20 +86,19 @@
 			font-family: 'GothamMedium';
 			font-size: 24px;
 			font-weight: 500;
+			padding-left: 67px;
 			padding-bottom: 7px;
 
 			&:focus, &:hover {
 				width: 700px;
 				z-index: 1;
 				cursor: text;
+				padding-right: 65px;
 			}
 
 		}
 
 	}
-
-
-
 
 	&__login {
 		width: 386px;
@@ -108,5 +130,75 @@
 			margin-right: 16px;
 		}
 
+	}
+}
+
+@media (max-width: 1150px) {
+	.nav {
+		&__logo {margin-left: 4%}
+		&__menu-li {margin-left: 15px}
+		&__menu-li-a {font-size: 13px}
+		&__search-input {right: 227px}
+		&__login {width: 300px}
+	}
+}
+
+@media (max-width: 970px) {
+	.nav {
+		&__search-input {right: 75px}
+		&__login {width: 150px}
+		&__login-text {display: none}
+		&__login-ico {margin-left: 45px}
+	}
+}
+
+@media (max-width: 800px) {
+	.nav {
+		&__gamburger {
+			background-image: url(../resource/images/nav__gamburger.png);
+			display: block;
+			margin: auto auto auto 40px;
+		}
+
+		&__logo {display: none}
+
+		&__menu {
+			width: 250px;
+			height: 100vh;
+			position: fixed;
+			left: -250px;
+			z-index: 9999;
+			flex-direction: column;
+			background-color: rgb(20, 20, 20);
+			top: 0;
+
+			&-li {
+				margin-left: 0;
+				width: 100%;
+				height: 75px;
+				border-bottom: 3px solid darkslategrey;
+				text-indent: 30px;
+
+				&-a {
+					font-size: 20px;
+					line-height: 77px;
+				}
+			}
+		}
+
+		&__search-input {
+			&:focus, &:hover {
+				width: 500px;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 574px) {
+	.nav__search-input {
+		font-size: 18px;
+
+		&:focus, &:hover {width: 300px}
 	}
 }

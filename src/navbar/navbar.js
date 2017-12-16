@@ -1,8 +1,13 @@
+$(".nav__gamburger").click(function() {
+	$(".nav__menu").animate({
+		left: "+=250"
+	},100)
+	$(".nav__menu-li-opacty").css("width", "250%");
+})
 
-/*
-
-При нажатии на .nav__search должно выдвигаться поле для ввода
-
-При нажатии на юnav__login-a должно появляться всплывающее окно
-
-*/
+$(".nav__menu-li-opacty").click(function() {
+	$(".nav__menu").animate({
+		left: "-=250"
+	},100)
+	$(".nav__menu-li-opacty").css("width", "0");
+})

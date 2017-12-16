@@ -29,6 +29,7 @@ gulp.task('CSS', function () {
 		.pipe(concat("style.css"))			// Склеиваем CSS
 		.pipe(uncss({						// Чистим от лишнего кода 
 			html: ['build/index.html']
+			ignore: ['/\.filters__list-item_home/']
 		}))
 		.pipe(prefixer({					// Добавляем префиксы
 			browsers: ['last 3 version', "> 1%", "ie 8", "ie 7"]
