@@ -426,8 +426,13 @@
 			<h5 class="subscribe__head">Subscribe to our newsletter</h5>
 			
 			<form action="" class="subscribe__form">
+
+
+				<input class="subscribe__hidden" type="hidden" name="project_name" value="Site Name">
+				<input class="subscribe__hidden" class="form__target" type="hidden" name="admin_email" value="sashakobzew@yandex.ua">
+				<input class="subscribe__hidden" type="hidden" name="form_subject" value="Form Subject">
 				
-				<input type="email" placeholder="your@email.com" class="subscribe__input">
+				<input required name="email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" title="Enter  e-mail" type="email" placeholder="your@email.com" class="subscribe__input">
 
 				<button class="subscribe__button">Subscribe</button>
 				
