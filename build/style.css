@@ -41,7 +41,8 @@
 .block-hover__stars {
   width: 86px;
   height: 16px;
-  background: url("../resource/images/block-hover__stars.png") no-repeat;
+  background: url("../resource/images/stars.png") no-repeat;
+  background-position: 0 -80px;
   display: inline-block;
   cursor: pointer;
 }
@@ -54,6 +55,33 @@
   margin-bottom: 15px;
   cursor: pointer;
 }
+/* uncss:ignore */
+.block-hover__star_1 {
+  background-position: 0 0px;
+}
+/* uncss:ignore */
+.block-hover__star_2 {
+  background-position: 0 -16px;
+}
+/* uncss:ignore */
+.block-hover__star_3 {
+  background-position: 0 -32px;
+}
+/* uncss:ignore */
+.block-hover__star_4 {
+  background-position: 0 -48px;
+}
+/* uncss:ignore */
+.block-hover__star_5 {
+  background-position: 0 -64px;
+}
+/*
+1 - 0 0
+2 - 0 -16
+3 - 0 -32
+4 - 0 -48
+5 - 0 -64
+*/
 
 .block-info {
   width: 100%;
