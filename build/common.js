@@ -11,39 +11,6 @@ $(".block-hover").mouseleave(function() {
 	$(".block-small__price").fadeIn(250);
 })
 
-// $(".block-hover__stars").
-
-/*
-1 - 0 0
-2 - 0 -16
-3 - 0 -32
-4 - 0 -48
-5 - 0 -64
-*/
-// var x = e.pageX;
-// starsWidth % starWidth = 0
-/*
-$(".block-small").mousemove(function(e) {
-	var positionLeftBlock = $(this).offset().left;
-	console.log(positionLeftBlock)
-})*/
-
-
-/*$('.block-hover > .block-hover__stars').mousemove(function(e){
-
-	// Узнаём позицию этого элемента относительно родителя
-	var positionLeftStars = $(this).position().left;
-	// 
-	var positionCursor = positionLeftStars - 39.5;
-	var starsWidth = $(".block-hover__stars").width();
-	var starWidth = starsWidth / 5;
-
-	if(positionCursor > starWidth) {
-
-		console.log(starWidth);
-
-	}
-});*/
 
 
 $('.block-hover > .block-hover__stars').mouseup(function(e){
@@ -73,18 +40,6 @@ $('.block-hover > .block-hover__stars').mouseup(function(e){
 	if (cursorStars > starWidth * 4 && cursorStars < starWidth * 5) {
 		$(this).css("backgroundPosition", "0 -64px")
 	}
-/*
-	if (cursorStars < starWidth) {
-		$(this).addClass("block-hover__star_1")
-	} else if (cursorStars < starWidth * 2) {
-		$(this).addClass("block-hover__star_2")
-	} else if (cursorStars < starWidth * 3) {
-		$(this).addClass("block-hover__star_3")
-	} else if (cursorStars < starWidth * 4) {
-		$(this).addClass("block-hover__star_4")
-	} else if (cursorStars < starWidth * 5) {
-		$(this).addClass("block-hover__star_5")
-	}*/
 
 	console.log("Ширина элемента - " + starWidth);
 	console.log("Относительно левого края элемента - " + cursorStars);
@@ -179,18 +134,18 @@ $('.paragraphs').on('click', '.paragraphs__item', function () {
 	$(".slide").eq(n).addClass("slide_visible").siblings().removeClass("slide_visible")
 });
 
-$(".paragraphs__item").click(function() {
-	var background = $(this).css("background-image");
-	var backgroundString = String(background);
-	var backgroundStringEnd = backgroundString.slice(0, -6);
-	var backgroundActive = backgroundStringEnd + "-active.png";
-	$(this).css("background-image", backgroundActive).siblings().css("background-image", function(i, val) {
-		var a = $(this).css("background-image").slice(-13);
-		if($(this).css("background-image").slice() == '-active.png")') {
-			$(this).css("background-image").slice(0, -13) + '.png")'
-		}
-	})
-})
+// $(".paragraphs__item").click(function() {
+// 	var background = $(this).css("background-image");
+// 	var backgroundString = String(background);
+// 	var backgroundStringEnd = backgroundString.slice(0, -6);
+// 	var backgroundActive = backgroundStringEnd + "-active.png";
+// 	$(this).css("background-image", backgroundActive).siblings().css("background-image", function(i, val) {
+// 		var a = $(this).css("background-image").slice(-13);
+// 		if($(this).css("background-image").slice() == '-active.png")') {
+// 			$(this).css("background-image").slice(0, -13) + '.png")'
+// 		}
+// 	})
+// })
 
 
 /*
