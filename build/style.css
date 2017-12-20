@@ -182,6 +182,11 @@
     font-size: 11px;
   }
 }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .block-info__name_large {
+    margin: 10px 10px 0 100px;
+  }
+}
 
 .block-large {
   width: 506.66666667px;
@@ -489,6 +494,14 @@
   }
   .descrip__text {
     width: 70%;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .descrip {
+    margin-top: 100px;
+  }
+  .descrip__img {
+    right: 5px;
   }
 }
 
@@ -1197,72 +1210,25 @@
 }
 @media (max-width: 640px) {
   .offer {
-    width: 100%;
     height: 650px;
-    background: #f3f1f2;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .offer__head {
-    color: #566375;
-    font-family: 'GothamMedium';
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 48px;
     margin-top: 10px;
   }
   .offer__subhead {
-    color: #96a6a7;
-    font-family: "Gotham - Book";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: -20px;
+    margin-top: -10px;
   }
 }
 @media (max-width: 450px) {
   .offer {
     width: 100%;
     height: 720px;
-    background: #f3f1f2;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .offer__head {
-    color: #566375;
-    font-family: 'GothamMedium';
     line-height: 28px;
     margin-top: 10px;
     width: 80%;
     text-align: center;
-  }
-  .offer__subhead {
-    color: #96a6a7;
-    font-family: "Gotham - Book";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: -20px;
   }
 }
 
@@ -1613,6 +1579,22 @@
 @media (max-width: 450px) {
   .slide {
     height: 390px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .slide {
+    width: 70%;
+    height: 250px;
+    margin-top: -50px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 640px) {
+  .slide {
+    margin-top: -10px;
+    height: 370px;
+  }
+  .slide__head {
+    margin-top: 20px;
   }
 }
 
