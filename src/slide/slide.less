@@ -4,7 +4,7 @@
 		display: flex;
 	}
 
-	width: 780px;
+	width: 100%;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrar: wrap;
@@ -25,4 +25,21 @@
 		position: absolute;
 		top: 0;
 	}
+}
+
+@media (max-width: 800px) {
+	.slide {height: 270px}
+}
+
+@media (max-width: 640px) {
+	.slide {
+
+		height: 330px;
+		margin-bottom: 30px;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 450px) {
+	.slide {height: 390px}
 }
